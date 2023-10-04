@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;
+}
+.container {
+    border: 2px solid black;
+    height: 400px;
+    width: 100%;
+    position: relative;
+}
+.container .box{
+    background-color: blue;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    animation: loop 8s,shaking ;
+    animation-iteration-count: infinite;
+}
+@keyframes loop {
+    0% {
+     top: 0 ;
+    left: 0 ;
+      }
+    25% {
+        background-color: blueviolet;
+        left: calc(100% - 70px) ;
+        top: 0;
+      }
+    50% {
+        background-color: brown;
+        top: calc(100% - 70px);
+        left: calc(100% - 70px);
+      }
+    75% {
+        background-color: chartreuse;
+        left: 0;
+        top: calc(100% - 70px);
+      }
+    100% {
+        top: 0 ;
+    left: 0 ;
+      }
+}

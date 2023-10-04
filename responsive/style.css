@@ -1,0 +1,68 @@
+main{
+    display: flex;
+}
+main header {
+    height: 300px;
+    width: 100%;
+}
+main header .box1{
+    border: 2px solid red;
+    width:15% ;
+    height: 30%;
+}
+main header .box2{
+    border: 2px solid red;
+    width:15% ;
+    height: 30%;
+}
+main header .box3{
+    border: 2px solid red;
+    width:15% ;
+    height: 30%;
+}
+main header .box4{
+    border: 2px solid red;
+    width:15% ;
+    height: 30%;
+}
+main header .box5{
+    border: 2px solid red;
+    width:15% ;
+    height: 30%;
+}
+main header .box6{
+    border: 2px solid red;
+    width:15% ;
+    height: 30%;
+}
+main header .box7{
+    border: 2px solid red;
+    width:15% ;
+    height: 30%;
+}
+main header .box8{
+    border: 2px solid red;
+    width:15% ;
+    height: 30%;
+}
+header {
+    display: flex;
+    gap: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        width: 600px;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    header {
+        width: 300px;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+

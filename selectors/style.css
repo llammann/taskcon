@@ -1,0 +1,19 @@
+.book{
+    background-color: red;
+}
+#pen{
+    color: green;
+}
+
+div.items div+div p{
+    color: yellow;
+}
+div.items div+div#animal span{
+    background-color: pink;
+}
+div:first-of-type {
+    color: green;
+}
+ span:first-of-type(2) {
+    background-color: red;
+}

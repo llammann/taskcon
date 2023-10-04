@@ -1,0 +1,53 @@
+.card {
+    /* border: 2px solid red; */
+    background-color: cadetblue;
+    width: 300px;
+    text-align: center;
+    border-radius; 3px
+}
+.card .img {
+    /* border: 2px solid yellow; */
+    width: 100%;
+    height: 180px;
+}
+.card .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card .audio {
+    width: 100%;
+    margin-top: 20px;
+}
+.card .audio audio {
+    width: 95%;
+    height: 40px;
+}
+/* .card article {
+    text-align: center;
+} */
+.card .player {
+    /* border: 2px solid greenyellow; */
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    animation: player 4s;
+    animation-iteration-count: infinite;
+}
+.card .player .img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-position: center;
+}
+@keyframes player {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

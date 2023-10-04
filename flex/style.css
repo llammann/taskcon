@@ -1,0 +1,141 @@
+/* * {
+    margin: 0;
+}
+.box {
+    background-color: rgb(236, 244, 245);
+    display: flex;
+    width: 100%;
+    height: 600px;
+    border: 5px solid red;
+    
+}
+.box1 {
+    background-color: cadetblue;
+}
+.box2 {
+    background-color: rgb(32, 108, 230);
+}
+.box3 {
+    background-color: rgb(200, 46, 220);
+}
+.box4 {
+    background-color: rgb(17, 70, 72);
+}
+.box5 {
+    background-color: rgb(247, 236, 26);
+}
+.box6 {
+    background-color: rgb(243, 130, 9);
+}
+.box7 {
+    background-color: rgb(214, 53, 13);
+}
+.box8 {
+    background-color: rgb(222, 95, 190);
+}
+.box9 {
+    background-color: rgb(5, 164, 100);
+}
+.box10 {
+    background-color: rgb(224, 24, 144);
+    width: 60px;
+}
+
+ */
+
+
+
+/* 
+ * {
+    margin: 0;
+}
+.box {
+    background-color: rgb(236, 244, 245);
+    display: flex;
+    width: 100%;
+    height: 95vh;
+    border: 5px solid red;
+    text-align: center;
+    /* justify-content: center; */
+    /* flex-direction: column; */
+/*     
+}
+.box1 {
+    background-color: cadetblue;
+}
+.box2 {
+    background-color: rgb(32, 108, 230);
+}
+.box3 {
+    background-color: rgb(200, 46, 220);
+}
+.box4 {
+    background-color: rgb(17, 70, 72);
+}
+.box5 {
+    background-color: rgb(247, 236, 26);
+}
+.box6 {
+    background-color: rgb(243, 130, 9);
+}
+.box7 {
+    background-color: rgb(214, 53, 13);
+}
+.box8 {
+    background-color: rgb(222, 95, 190);
+}
+.box9 {
+    background-color: rgb(5, 164, 100);
+}
+.box10 {
+    background-color: rgb(224, 24, 144);
+    /* width: 60px; */
+/* } */
+
+
+
+ /* */ 
+
+
+ * {
+    margin: 0;
+}
+.box {
+    background-color: rgb(236, 244, 245);
+    display: flex;
+    width: 100%;
+    height: 600px;
+    border: 5px solid red;
+    
+}
+.box1 {
+    background-color: cadetblue;
+}
+.box2 {
+    background-color: rgb(32, 108, 230);
+}
+.box3 {
+    background-color: rgb(200, 46, 220);
+}
+.box4 {
+    background-color: rgb(17, 70, 72);
+}
+.box5 {
+    background-color: rgb(247, 236, 26);
+}
+.box6 {
+    background-color: rgb(243, 130, 9);
+}
+.box7 {
+    background-color: rgb(214, 53, 13);
+}
+.box8 {
+    background-color: rgb(222, 95, 190);
+}
+.box9 {
+    background-color: rgb(5, 164, 100);
+}
+.box10 {
+    background-color: rgb(224, 24, 144);
+    width: 60px;
+}
