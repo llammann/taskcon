@@ -1,4 +1,4 @@
-loop;
+// loop;
 // #region TASK 1
 
 // let input=Number(window.prompt("Enter count"))
