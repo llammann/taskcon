@@ -79,24 +79,28 @@
 // #region TASK 4
 // replace
 
-String.prototype.myReplace = function (first, last) {
-  let new_str;
-  new_str.length = this.length + last.length;
-  new_str = this;
-  let result = "";
-  for (i = 0; i < new_str.length; i++) {
-    if (new_str[i] === first) {
-      result += new_str.slice(0, i) + last + new_str.slice(i + last.length);
-      break;
-    }
-  }
-  return result;
-};
+// String.prototype.myReplace = function (first, last) {
+//   let new_str;
+//   // new_str.length = this.slice(i).length + last.length;
+//   for (let j = 0; j <= this.length; j++) {
+//     new_str.length = this.slice(j).length + last.length;
+//   }
+//   new_str = this;
+//   let result = "";
+//   for (i = 0; i < new_str.length; i++) {
+//     if (new_str[i] === first) {
+//       // result += new_str.slice(0, i) + last + new_str.slice(i + last.length);
+//       result += splice(i, first.length, last);
+//       break;
+//     }
+//   }
+//   return result;
+// };
 
-let input = prompt("Enter string");
-let letter_1 = prompt("Enter letter_1");
-let letter_2 = prompt("Enter letter_2");
-console.log(input.myReplace(letter_1, letter_2));
+// let input = prompt("Enter string");
+// let letter_1 = prompt("Enter letter_1");
+// let letter_2 = prompt("Enter letter_2");
+// console.log(input.myReplace(letter_1, letter_2));
 
 // #endregion
 
@@ -109,3 +113,26 @@ console.log(input.myReplace(letter_1, letter_2));
 
 // let str5 = "salam";
 // console.log(str5[6]);
+
+String.prototype.myReplace = function (first, last) {
+  let new_str;
+  // new_str.length = this.slice(i).length + last.length;
+  for (let j = 0; j <= this.length; j++) {
+    new_str.length = this.slice(j).length + last.length;
+  }
+  new_str = this;
+  let result = "";
+  for (i = 0; i < new_str.length; i++) {
+    if (new_str[i] === first) {
+      // result += new_str.slice(0, i) + last + new_str.slice(i + last.length);
+      result += splice(i, first.length, last);
+      break;
+    }
+  }
+  return result;
+};
+
+let input = prompt("Enter string");
+let letter_1 = prompt("Enter letter_1");
+let letter_2 = prompt("Enter letter_2");
+console.log(input.myReplace(letter_1, letter_2));
