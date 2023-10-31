@@ -1,0 +1,22 @@
+{
+  "singers": [
+    {
+      "id": 1,
+      "name": "Adele",
+      "nationality": "British",
+      "image": "https://th.bing.com/th/id/OIP.GMIEG13h93VOG4QAhpfqrQHaEL?w=288&h=180&c=7&r=0&o=5&pid=1.7"
+    },
+    {
+      "id": 1,
+      "name": "Beyonce",
+      "nationality": "American",
+      "image": "https://th.bing.com/th/id/OIP.-q2wJQRmFKm1UUm_jvCz9QHaFj?w=256&h=192&c=7&r=0&o=5&pid=1.7"
+    },
+    {
+      "id": 1,
+      "name": "Edd Sheeran",
+      "nationality": "British",
+      "image": "https://th.bing.com/th/id/OIP.SKcuHaCtSZmG_hcgv3inDQHaGc?w=219&h=190&c=7&r=0&o=5&pid=1.7"
+    }
+  ]
+}
