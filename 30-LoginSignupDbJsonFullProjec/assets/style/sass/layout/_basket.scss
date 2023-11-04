@@ -1,0 +1,14 @@
+.basketed_item {
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  border-radius: 30px;
+  .item_count {
+    font-size: 28px;
+  }
+  .remove_item {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+  }
+}
