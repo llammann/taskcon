@@ -1,0 +1,32 @@
+@import './abstracts/mixins';
+@import './abstracts/functions';
+@import './abstracts/placeholders';
+@import './abstracts/variables';
+@import './abstracts/abstracts';
+
+@import './vendors/vendors';
+
+@import './base/base';
+@import './base/animations';
+@import './base/reset';
+@import './base/typography';
+
+@import './components/components';
+@import './components/buttons';
+
+@import './layout/layout';
+@import './layout/footer';
+@import './layout/forms';
+@import './layout/navbar';
+@import './layout/sidebar';
+
+
+@import './pages/pages';
+@import './pages/home';
+
+@import './themes/themes';
+@import './themes/default';
+
+// body {
+//     background-color: red;
+// }

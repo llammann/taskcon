@@ -1,0 +1,163 @@
+// NAV style start
+nav {
+    background-color: #007878;
+    padding: 12px 0 12px 0;
+
+    .mycontainer {
+        width: calc(100% - 402px);
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .phone {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            img {
+                width: 24px;
+                height: 24px;
+            }
+
+            span {
+                margin-left: 14px;
+                color: rgba(255, 255, 255, 0.90);
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 170%;
+            }
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+            margin-bottom: 0;
+
+            li {
+                color: rgba(255, 255, 255, 0.75);
+                font-family: Poppins;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 170%;
+                padding-right: 18px;
+            }
+
+            :last-child {
+                padding-right: 0;
+            }
+        }
+    }
+}
+
+// NAV style end
+
+// NAVBAR style start
+.navbar {
+    .mycontainer {
+        margin: auto;
+
+        .search {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 32px;
+            width: 100%;
+
+            .left,
+            .right,
+            .right ul {
+                display: flex;
+                // justify-content: space-between;
+                align-items: center;
+            }
+
+            .left {
+                p {
+                    color: #000;
+                    font-family: Palanquin;
+                    font-size: 40px;
+                    font-style: normal;
+                    font-weight: 700;
+                    margin: 0;
+                    margin-right: 46px;
+                }
+
+                .search_products {
+                    width: 504px;
+                    height: 48px;
+                    border-radius: 8px;
+                    background: #F7F9FC;
+                    // background-color: blue;
+                    margin-right: 57px;
+                    padding: 15px 0px 14px 16px;
+                }
+            }
+
+            .right {
+                ul {
+                    list-style: none;
+                    margin: 0;
+                    padding-left: 0;
+
+                    li {
+                        padding-right: 26px;
+
+                        span {
+                            color: #2E2E2E;
+                            font-family: Poppins;
+                            font-size: 14px;
+                            font-weight: 500;
+                            line-height: 120%;
+                            // background-color: red;
+                        }
+
+                        img {
+                            width: 24px;
+                            height: 24px;
+                        }
+                    }
+
+                    :last-child {
+                        margin-right: 0;
+                    }
+
+                    p {
+                        margin: 0;
+                    }
+                }
+            }
+        }
+
+        .bag_categories {
+            width: calc(100% - px);
+
+            ul {
+                list-style: none;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 35px;
+                padding-left: 0;
+
+                li {
+                    margin-right: 54px;
+                    color: #273142;
+                    font-family: Poppins;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 170%;
+                }
+
+                :last-child {
+                    margin-right: 0
+                }
+            }
+        }
+    }
+}
+
+// BAGS SECTION PINK
