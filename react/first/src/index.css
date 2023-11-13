@@ -1,0 +1,15 @@
+ul {
+  /* background-color: rgb(216, 163, 163); */
+  padding: 60px;
+  margin: auto;
+  max-width: fit-content;
+  margin-bottom: 30px;
+}
+h1,
+span {
+  margin: auto;
+  /* background-color: blue; */
+  max-width: fit-content;
+  margin-bottom: 10px;
+  display: block;
+}

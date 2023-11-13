@@ -36,15 +36,15 @@
 
 // #region
 
-// let input = document.querySelector("#search");
-// let error = document.querySelector("p");
-// error.style.display = none;
+let input = document.querySelector("#search");
+let error = document.querySelector("p");
+error.style.display = none;
 
-// input.addEventListener("keyup", function () {
-//   if (input.value.length < 5) {
-//     error.style.display = block;
-//   }
-// });
+input.addEventListener("keyup", function () {
+  if (input.value.length < 5) {
+    error.style.display = block;
+  }
+});
 // #endregion
 
 //TASK 3
