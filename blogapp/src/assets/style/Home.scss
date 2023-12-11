@@ -1,0 +1,27 @@
+.myBlogs {
+  padding: 30px;
+  padding-top: 0;
+  //   background-color: red;
+
+  h1 {
+    // margin: auto;
+    width: fit-content;
+  }
+}
+
+.allBlogs {
+  padding: 30px;
+  ul {
+    width: 50%;
+    li {
+      background-color: rgb(255, 208, 208);
+      padding: 25px;
+      margin-bottom: 15px;
+    }
+  }
+}
+
+.addBtn {
+    padding: 50px;
+      
+}

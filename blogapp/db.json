@@ -1,0 +1,9 @@
+{
+  "blogs": [
+    {
+      "id": 3,
+      "title": "Machine Learning Basics",
+      "content": "Duis vehicula ligula non tellus iaculis, ac dapibus odio tincidunt. Sed feugiat mauris eget tincidunt fringilla."
+    }
+  ]
+}
